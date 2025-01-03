@@ -23,7 +23,7 @@ $ ansible-galaxy install killakazzak.lighthouse
 - hosts: all
   become: yes
   vars:
-    lighthouse_version: "9.0.0"  # Укажите нужную версию Lighthouse
+    lighthouse_version: "12.3.0"  # Укажите нужную версию Lighthouse
     lighthouse_install_dir: "/usr/local/bin/lighthouse"  # Укажите директорию установки
     lighthouse_config_template: "path/to/lighthouse-config.json.j2"  # Укажите путь к шаблону конфигурации
 
