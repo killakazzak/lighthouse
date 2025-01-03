@@ -12,7 +12,7 @@
 ## Установка
 
 ```bash
-$ ansible-galaxy install yourusername.lighthouse
+$ ansible-galaxy install killakazzak.lighthouse
 ```
 
 ## Использование
